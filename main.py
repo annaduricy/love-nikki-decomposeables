@@ -153,8 +153,8 @@ if __name__ == '__main__':
 
     for row_count, item in enumerate(owned_decomp_items_list):
         num = find_number_of_ingredient_needed(item, owned_items_list)
-        # hair_worksheet.update_cell(2, 3, 'Blue')
 
+        ## Remove these two lines to have it to the point where it can return the number needed of every ingredient
         hair_worksheet.update('A2:B3', [["Gourds", "2"], ["Elegant Nobleman", "20"]])
         exit()
 
